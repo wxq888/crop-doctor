@@ -1,0 +1,32 @@
+# 作物医生 CropDoctor · 后端依赖清单
+# 版本号将在首次锁定环境时统一固定
+
+# ===== Web 框架 =====
+fastapi
+uvicorn[standard]
+
+# ===== 数据库 / ORM / 迁移 =====
+sqlalchemy
+pymysql
+alembic
+redis
+
+# ===== 认证 =====
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# ===== 视觉检测 =====
+ultralytics          # YOLOv8
+opencv-python-headless
+pillow
+
+# ===== RAG 智能客服 =====
+faiss-cpu
+sentence-transformers
+openai               # OpenAI 兼容协议，直连 DeepSeek
+
+# ===== 工具 =====
+pydantic-settings
+httpx
+loguru

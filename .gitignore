@@ -1,0 +1,47 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Node =====
+node_modules/
+dist/
+*.local
+
+# ===== IDE / OS =====
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ===== 环境变量 / 密钥（模板见 .env.example）=====
+.env
+.env.*
+!.env.example
+
+# ===== 数据集与模型权重（体积大，不入库）=====
+ml/data/raw/*
+ml/data/datasets/*
+ml/exports/*
+ml/runs/
+*.pt
+*.onnx
+*.engine
+
+# ===== FAISS 索引 / 向量库（由 kb/ 文档构建生成）=====
+backend/app/data/index/
+
+# ===== 日志 / 临时文件 =====
+logs/
+*.log
+tmp/
+uploads/
+
+# 保留目录占位
+!**/.gitkeep
