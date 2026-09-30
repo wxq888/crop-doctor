@@ -1,0 +1,651 @@
+[
+  {
+    "disease": "番茄晚疫病",
+    "crop": "番茄",
+    "temp_min": 18,
+    "temp_max": 22,
+    "humidity_min": 75,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "低温高湿（18~22℃、相对湿度75%以上）、连阴天或多雾天气利于晚疫病流行，建议提前用药预防并加强通风降湿。（来源：江西省农业农村厅《西红柿晚疫病成因及防治》、兰州市农业农村局《温室番茄晚疫病发生，注意防控》）",
+    "sources": [
+      {
+        "title": "西红柿晚疫病成因及防治，江西省农业农村厅",
+        "url": "https://nync.jiangxi.gov.cn/jxsnynct/fzjz/content/content_1877698089655173120.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "温室番茄晚疫病发生，注意防控，兰州市农业农村局",
+        "url": "https://nync.lanzhou.gov.cn/art/2020/12/31/art_2202_960339.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "甘泉：番茄晚疫病发生与防治，陕西省农业农村厅",
+        "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202512/t20251205_3592677.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "马铃薯晚疫病",
+    "crop": "马铃薯",
+    "temp_min": 10,
+    "temp_max": 22,
+    "humidity_min": 75,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "低温高湿（10~22℃、相对湿度75%以上），连阴雨、多雾、重露天气利于晚疫病暴发流行，现蕾至开花期最易感病，建议雨前预防、雨后补治。（来源：陕西省农业农村厅《志丹：马铃薯晚疫病发生与防治》、威海市农业农村局《马铃薯晚疫病识别与防控》）",
+    "sources": [
+      {
+        "title": "志丹：马铃薯晚疫病发生与防治，陕西省农业农村厅",
+        "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202608/t20260818_3667672.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "马铃薯晚疫病识别与防控，威海市农业农村局",
+        "url": "https://nyj.weihai.gov.cn/art/2026/9/17/art_24105_6630730.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "阴雨天易发生晚疫病 防控要点请牢记，黑龙江省农业农村厅",
+        "url": "https://nynct.hlj.gov.cn/nynct/c115393/202506/c00_31852300.shtml",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "番茄叶霉病",
+    "crop": "番茄",
+    "temp_min": 20,
+    "temp_max": 25,
+    "humidity_min": 90,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "病菌发育适温20~25℃、相对湿度90%以上利于繁殖，连阴雨、大棚通风不良时扩展迅速，建议控温控湿、及时通风降湿。（来源：中国农业科技信息网《番茄叶霉病的识别及防治》、酒泉市农业农村局《番茄叶霉病发生与防治》）",
+    "sources": [
+      {
+        "title": "番茄叶霉病的识别及防治，中国农业科技信息网（中国农科院）",
+        "url": "https://cast.caas.cn/kj/syjs/zwbhjs/5a65490e675942758982a2f6ed0d919e.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "番茄叶霉病发生与防治，酒泉市农业农村局",
+        "url": "https://nync.jiuquan.gov.cn/nyncj/c106977/202211/0c684b2fe584422aadde4c9045ce7715.shtml",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "番茄早疫病",
+    "crop": "番茄",
+    "temp_min": 26,
+    "temp_max": 28,
+    "humidity_min": 80,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "病菌生长最适26~28℃，相对湿度80%以上即利于孢子产生萌发，连续阴雨或棚内高湿易流行，建议发病初期及早用药并通风降湿。（来源：科普中国《番茄早疫病》、中国农网《番茄早疫病的发生与综合防治》）",
+    "sources": [
+      {
+        "title": "番茄早疫病，科普中国",
+        "url": "https://www.kepuchina.cn/article/articleinfo?business_type=100&ar_id=153777",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "番茄早疫病的发生与综合防治，中国农网",
+        "url": "https://www.farmer.com.cn/2014/11/02/99587416.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "番茄斑枯病",
+    "crop": "番茄",
+    "temp_min": 22,
+    "temp_max": 26,
+    "humidity_min": 90,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "病菌发育适温22~26℃、适宜相对湿度92%~94%，气温15℃以上遇阴雨天气最易发病，建议雨后及时排水并及早喷药。（来源：中国农业科技信息网《注意查防番茄斑枯病》）",
+    "sources": [
+      {
+        "title": "注意查防番茄斑枯病，中国农业科技信息网（中国农科院）",
+        "url": "https://cast.caas.cn/kj/syjs/zwbhjs/231266.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "番茄斑枯病的防治措施，科普中国",
+        "url": "https://www.kepuchina.cn/article/articleinfo?ar_id=144168&business_type=100&classify=0",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "番茄细菌性斑点病",
+    "crop": "番茄",
+    "temp_min": 18,
+    "temp_max": 28,
+    "humidity_min": 80,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "适宜发病温度18~28℃（最适20~25℃）、相对湿度80%以上，低温多雨、喷灌或棚内高湿利于发病，建议控湿、避免喷灌并及早用药。（来源：中国农业科技信息网《番茄斑疹病的发生与防治》、中国蔬菜《制种番茄细菌性斑点病综合防治技术》）",
+    "sources": [
+      {
+        "title": "番茄斑疹病的发生与防治，中国农业科技信息网（中国农科院）",
+        "url": "https://cast.caas.cn/kj/syjs/zwbhjs/230560.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "制种番茄细菌性斑点病综合防治技术，中国蔬菜",
+        "url": "https://www.cnveg.org/EN/article/downloadArticleFile.do?attachType=PDF&id=17300",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "番茄靶斑病",
+    "crop": "番茄",
+    "temp_min": 20,
+    "temp_max": 30,
+    "humidity_min": 85,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "mid",
+    "advice": "靶斑病（棒孢叶斑病）需长时间结露（≥16小时），气温20℃以上、温暖多雨高湿、田间郁闭时发病重，建议改善通风、降低湿度并预防用药。（来源：University of Kentucky Extension《Foliar Diseases of Tomato》、石家庄农业农村信息网《番茄棒孢褐斑病的识别和防治》）",
+    "sources": [
+      {
+        "title": "Foliar Diseases of Tomato (PPFS-VG-25)，University of Kentucky Extension",
+        "url": "https://plantpathology.mgcafe.uky.edu/sites/plantpathology.ca.uky.edu/files/PPFS-VG-25.pdf",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "番茄棒孢褐斑病的识别和防治，石家庄农业农村信息网",
+        "url": "http://www.sjznync.com/col/1506563644515/2017/11/20/1511160558521.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "番茄黄化曲叶病毒病",
+    "crop": "番茄",
+    "temp_min": 20,
+    "temp_max": 35,
+    "humidity_min": null,
+    "humidity_max": 80,
+    "rain_condition": "no_rain",
+    "risk_level": "high",
+    "advice": "高温干旱（25~35℃、相对湿度80%以下）利于烟粉虱繁殖与传毒，病害随虫口暴发而流行，建议防虫网隔离、黄板诱杀并重点防治烟粉虱。（来源：科普中国《番茄病毒病的防治办法》、东方城乡报《番茄病毒病》）",
+    "sources": [
+      {
+        "title": "番茄病毒病的防治办法，科普中国",
+        "url": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=0&ar_id=144170",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "番茄病毒病（发生规律），东方城乡报",
+        "url": "https://dfcxb.com/html/2014-05/01/content_7_2.htm",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "丰县设施蔬菜主要病虫及绿色防控技术",
+        "url": "https://www.fxzdzyxx.cn/contents/1261/562.html",
+        "grade": "B",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "番茄花叶病毒病",
+    "crop": "番茄",
+    "temp_min": 20,
+    "temp_max": 25,
+    "humidity_min": null,
+    "humidity_max": 80,
+    "rain_condition": "no_rain",
+    "risk_level": "mid",
+    "advice": "花叶病毒病适宜发病温度20~25℃、相对湿度80%以下，高温干旱、植株长势弱时发生重，主要通过汁液与农事操作传播，建议培育壮苗、避免接触传毒。（来源：承德市农业农村局《西红柿病毒病的识别与防治》、上海市农业农村委员会《番茄常发生病毒病，怎么防治？》）",
+    "sources": [
+      {
+        "title": "西红柿病毒病的识别与防治，承德市农业农村局",
+        "url": "https://nyncj.chengde.gov.cn/art/2017/8/18/art_667_93597.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "番茄常发生病毒病，怎么防治？上海市农业农村委员会",
+        "url": "https://nyncw.sh.gov.cn/bwbdzzl/20181219/0009-108053.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "番茄二斑叶螨（虫害）",
+    "crop": "番茄",
+    "temp_min": 25,
+    "temp_max": 31,
+    "humidity_min": null,
+    "humidity_max": 55,
+    "rain_condition": "no_rain",
+    "risk_level": "high",
+    "advice": "二斑叶螨发育最适25~31℃、相对湿度35%~55%，高温低湿有利其暴发，多雨高湿或暴雨则受抑制，建议干旱时及时浇水并轮换用药防治。（来源：中国农业科技信息网《控制棚室叶螨发生与为害》、寿光日报《天暖害虫动防虫先知虫》）",
+    "sources": [
+      {
+        "title": "控制棚室叶螨发生与为害，中国农业科技信息网（中国农科院）",
+        "url": "https://cast.caas.cn/kj/syjs/zwbhjs/242470.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "天暖害虫动 防虫先知虫（一），寿光日报数字报",
+        "url": "https://szb.sgnet.cc/sgrb/bfscb/pc/con/202503/07/content_124921.html",
+        "grade": "B",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "甜椒细菌性斑点病",
+    "crop": "甜椒",
+    "temp_min": 27,
+    "temp_max": 30,
+    "humidity_min": 80,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "辣椒疮痂病（细菌性斑点病）病菌发育适温27~30℃、相对湿度80%以上，7—8月高温多雨、暴雨后易暴发，建议雨后及时补喷药剂并通风降湿。（来源：科普中国《辣椒疮痂病识别与防治》）",
+    "sources": [
+      {
+        "title": "辣椒疮痂病识别与防治，科普中国",
+        "url": "https://m.kepuchina.cn/tuwendetail?id=439308",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "桃细菌性穿孔病",
+    "crop": "桃",
+    "temp_min": 19,
+    "temp_max": 28,
+    "humidity_min": 70,
+    "humidity_max": 90,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "适宜发病温度19~28℃、相对湿度70%~90%，遇连续阴雨或单日雨量大时发病重，夏季高温干旱则受抑制，建议雨季排水、抓住雨隙用药。（来源：上海市农业农村委员会《桃树细菌性穿孔病防治意见》、甘肃省农业农村厅《如何防治桃细菌性穿孔病？》）",
+    "sources": [
+      {
+        "title": "桃树细菌性穿孔病防治意见（病虫情报），上海市农业农村委员会",
+        "url": "https://nyncw.sh.gov.cn/bcycyb/20190513/0009-116907.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "如何防治桃细菌性穿孔病？甘肃省农业农村厅",
+        "url": "https://nync.gansu.gov.cn/nync/c118561/202407/173952543.shtml",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "南瓜白粉病",
+    "crop": "南瓜",
+    "temp_min": 16,
+    "temp_max": 25,
+    "humidity_min": 75,
+    "humidity_max": null,
+    "rain_condition": "any",
+    "risk_level": "high",
+    "advice": "南瓜白粉病适发温度16~25℃、空气湿度偏大时易流行，高温干燥与高湿交替、保护地通风不良时发病重，建议合理密植、控氮增磷钾并及时用药。（来源：承德市农业农村局《瓜类白粉病的防治要点》、百度百科《南瓜白粉病》）",
+    "sources": [
+      {
+        "title": "瓜类白粉病的防治要点，承德市农业农村局",
+        "url": "https://nyncj.chengde.gov.cn/art/2017/8/22/art_667_93607.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "南瓜白粉病，百度百科",
+        "url": "https://baike.baidu.com/item/%E5%8D%97%E7%93%9C%E7%99%BD%E7%B2%89%E7%97%85/873818",
+        "grade": "C",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "白粉病识别与综合防控技术要点，青海省农业农村厅",
+        "url": "https://nynct.qinghai.gov.cn/ztzl/nyzsydt/202607/t20260714_408959.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "苹果黑星病",
+    "crop": "苹果",
+    "temp_min": 10,
+    "temp_max": 20,
+    "humidity_min": 80,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "苹果黑星病属典型低温高湿病害，春季气温10~20℃、相对湿度80%以上并持续阴雨时侵染加快，花期至幼果期连续降雨是暴发核心诱因，建议降雨前后及时用药。（来源：陕西省农业农村厅《旬邑：苹果黑星病防治技术》《泾阳：苹果黑星病识别及防控技术》）",
+    "sources": [
+      {
+        "title": "旬邑：苹果黑星病防治技术，陕西省农业农村厅",
+        "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202605/t20260525_3641190.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "泾阳：苹果黑星病识别及防控技术，陕西省农业农村厅",
+        "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202504/t20250411_3490430.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "苹果黑腐病",
+    "crop": "苹果",
+    "temp_min": 20,
+    "temp_max": 30,
+    "humidity_min": 75,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "苹果轮纹病（黑腐病）在气温高于20℃、相对湿度高于75%或连续降雨（雨量10mm以上）时发生严重，病菌适宜生育温度15~30℃，建议幼果期雨后及时施药保护。（来源：科普中国《苹果轮纹病》、中国三农网《苹果轮纹病如何防治？》）",
+    "sources": [
+      {
+        "title": "苹果轮纹病，科普中国",
+        "url": "https://www.kepuchina.cn/article/articleinfo?business_type=100&ar_id=149224",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "苹果轮纹病如何防治？中国三农网",
+        "url": "https://www.sn5.cn/news/show-12399.html",
+        "grade": "C",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "苹果锈病",
+    "crop": "苹果",
+    "temp_min": 17,
+    "temp_max": 20,
+    "humidity_min": null,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "苹果锈病流行与早春降雨密切相关，气温17~20℃且阴雨连绵（连续两天降雨50mm以上）时发生严重，干旱少雨则发病轻，建议雨后及时补喷药剂。（来源：渭南市农业农村局《合阳：注意防治苹果锈病》、陕西省农业农村厅《白水：苹果锈病防治技术要点》）",
+    "sources": [
+      {
+        "title": "合阳：注意防治苹果锈病，渭南市农业农村局",
+        "url": "https://nyncj.weinan.gov.cn/nyfw/zyy/1665933877553905665.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "白水：苹果锈病防治技术要点，陕西省农业农村厅",
+        "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202405/t20240513_3451041.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "樱桃白粉病",
+    "crop": "樱桃",
+    "temp_min": 20,
+    "temp_max": 27,
+    "humidity_min": 75,
+    "humidity_max": null,
+    "rain_condition": "any",
+    "risk_level": "mid",
+    "advice": "白粉病分生孢子萌发适温15~30℃（最适20~25℃），高湿但叶面无水膜时最易侵染，樱桃生长后期气温适宜、湿度偏大时发病重，建议改善通风透光并及时用药。（来源：青海省农业农村厅《白粉病识别与综合防控技术要点》、PNW Pest Management Handbooks《Cherry-Powdery Mildew》）",
+    "sources": [
+      {
+        "title": "白粉病识别与综合防控技术要点，青海省农业农村厅",
+        "url": "https://nynct.qinghai.gov.cn/ztzl/nyzsydt/202607/t20260714_408959.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "Cherry (Prunus spp.)-Powdery Mildew，PNW Pest Management Handbooks",
+        "url": "https://pnwhandbooks.org/plantdisease/host-disease/cherry-prunus-spp-powdery-mildew",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "玉米大斑病",
+    "crop": "玉米",
+    "temp_min": 20,
+    "temp_max": 25,
+    "humidity_min": 90,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "玉米大斑病最适发病温度20~25℃、相对湿度90%以上，连阴雨、多雾、露水重时爆发快，抽雄灌浆期遇低温连阴雨极易流行，建议雨后及时排水并预防用药。（来源：陕西省农业农村厅《靖边：玉米大斑病识别与防治》、咸阳市农业农村局《玉米大斑病识别与预防》）",
+    "sources": [
+      {
+        "title": "靖边：玉米大斑病识别与防治，陕西省农业农村厅",
+        "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202608/t20260827_3670281.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "玉米大斑病识别与预防，咸阳市农业农村局",
+        "url": "https://nyj.xianyang.gov.cn/js/202308/t20230811_1665434.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "玉米大小斑病发生条件及防治措施，巴彦淖尔市科学技术局",
+        "url": "http://kjj.bynr.gov.cn/sykj_1/202301/t20230116_283006.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "玉米灰斑病",
+    "crop": "玉米",
+    "temp_min": 20,
+    "temp_max": 25,
+    "humidity_min": 90,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "玉米灰斑病在气温20~25℃、相对湿度90%以上、雨水多的条件下严重发生易流行，温度高、干旱则受抑制，建议雨后清沟排水并适时用药。（来源：锡林郭勒盟行政公署《玉米灰斑病症状识别及防治》）",
+    "sources": [
+      {
+        "title": "玉米灰斑病症状识别及防治，锡林郭勒盟行政公署",
+        "url": "https://www.xlgl.gov.cn/eportal/ui?pageId=c449e8dfef194a729e341df57d903d59&articleKey=05898a6fb5f7488395922a24cf623e65&columnId=6e17a1ed3b684162abd0322628d20e83",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "玉米普通锈病",
+    "crop": "玉米",
+    "temp_min": 16,
+    "temp_max": 23,
+    "humidity_min": 90,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "mid",
+    "advice": "普通型玉米锈病在16~23℃低温高湿条件下发病重，高温多湿、连阴雨、多雾或光照不足季节发病重，建议发病初期及早喷施三唑类药剂。（来源：中国农业科技信息网《玉米锈病来袭如何防治》、国家农业科学数据中心（热带作物）《玉米锈病》）",
+    "sources": [
+      {
+        "title": "玉米锈病来袭如何防治，中国农业科技信息网（中国农科院）",
+        "url": "https://cast.caas.cn/kj/syjs/zwbhjs/314928.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "玉米锈病，国家农业科学数据中心（热带作物）",
+        "url": "https://trop.catas.cn/contents/1398/110815.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "葡萄黑腐病",
+    "crop": "葡萄",
+    "temp_min": 22,
+    "temp_max": 27,
+    "humidity_min": null,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "葡萄黑腐病在温暖潮湿、多雨季节易流行，最适发病温度约22~27℃，果实成熟期高温高湿时发病重，建议花前至封穗期做好保护性用药并清园除菌源。（来源：US CT CAES《Black Rot of Grapes》、UMass Extension《Black Rot of Grapes》）",
+    "sources": [
+      {
+        "title": "Black Rot of Grapes，The Connecticut Agricultural Experiment Station (CAES)",
+        "url": "https://portal.ct.gov/-/media/CAES/DOCUMENTS/Publications/Fact_Sheets/Plant_Pathology_and_Ecology/2020/Black-Rot-of-Grape-(1).pdf",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "Black Rot of Grapes，UMass Extension",
+        "url": "https://www.umass.edu/agriculture-food-environment/sites/ag.umass.edu/files/fact-sheets/pdf/grape_black_rot_fact_sheet_gr-001.pdf",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "葡萄叶枯病",
+    "crop": "葡萄",
+    "temp_min": null,
+    "temp_max": null,
+    "humidity_min": 85,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "mid",
+    "advice": "葡萄褐斑病（叶枯病）病菌喜高温高湿，风雨有利孢子传播萌发，多雨年份及多雨地区、发病盛期7—9月发病重，建议及时排水降湿、摘除病叶并用药保护。（来源：科普中国《葡萄褐斑病病害与防治》、国家农业科学数据中心西部《葡萄褐斑病》）（注：来源仅给出高温高湿+多雨条件，未给具体温度数值，故温度阈值留空）",
+    "sources": [
+      {
+        "title": "葡萄褐斑病病害与防治，科普中国",
+        "url": "https://www.kepuchina.cn/article/articleinfo?business_type=100&ar_id=155084",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "葡萄褐斑病，国家农业科学数据中心（西部）",
+        "url": "https://yjyz.nais.net.cn/application/industry/diseaseDetail.html?detailType=Diseases&diseaseId=C6E79D7D-4FF3-4447-98EC-B57872FC7A7D&type=STNY050",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "柑橘黄龙病",
+    "crop": "柑橘",
+    "temp_min": 20,
+    "temp_max": 30,
+    "humidity_min": null,
+    "humidity_max": null,
+    "rain_condition": "any",
+    "risk_level": "mid",
+    "advice": "柑橘黄龙病由柑橘木虱传播，木虱发育繁殖适宜温度20~30℃，高温多雨季节虫口密增、传病风险升高，建议在春/夏/秋梢期重点防治木虱并及时清除病株。（来源：江油市人民政府《柑橘木虱综合防控技术》、广西壮族自治区农业农村厅《结合冬季清园做好柑橘黄龙病病株清除工作》）",
+    "sources": [
+      {
+        "title": "柑橘木虱综合防控技术，江油市人民政府",
+        "url": "https://www.jiangyou.gov.cn/jysrmzf/fdkjsf/202511/2ace922a96be4d61b78a2034c2142449.shtml",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "结合冬季清园做好柑橘黄龙病病株清除工作，广西壮族自治区农业农村厅",
+        "url": "https://nynct.gxzf.gov.cn/xwdt/gxlb/lb/t11122227.shtml",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "马铃薯早疫病",
+    "crop": "马铃薯",
+    "temp_min": 25,
+    "temp_max": 28,
+    "humidity_min": 70,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "马铃薯早疫病分生孢子萌发适温25~28℃，多雨、多雾、多露或连续阴雨、相对湿度70%以上时易发生流行，建议雨后及时排水并及早用药。（来源：乌兰察布市农牧局《马铃薯早疫病的症状及防治方法》、邯郸市人民政府《马铃薯早疫病的危害及防治》）",
+    "sources": [
+      {
+        "title": "马铃薯早疫病的症状及防治方法，乌兰察布市农牧局",
+        "url": "https://nmj.wulanchabu.gov.cn/syjs/545055.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "马铃薯早疫病的危害及防治，邯郸市人民政府",
+        "url": "https://www.hd.gov.cn/ztzl/sn/201803/t20180328_769112.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "马铃薯早疫病的发生与防治，科普中国",
+        "url": "https://www.kepuchina.cn/article/articleinfo?business_type=100&ar_id=466226",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  },
+  {
+    "disease": "草莓叶枯病（蛇眼病）",
+    "crop": "草莓",
+    "temp_min": 18,
+    "temp_max": 22,
+    "humidity_min": 80,
+    "humidity_max": null,
+    "rain_condition": "rain",
+    "risk_level": "high",
+    "advice": "草莓蛇眼病（叶枯病）病菌发育最适温度18~22℃（低于7℃或高于23℃受抑），相对湿度持续高于80%~85%、多阴雨天气时高发，建议摘除病老叶、加强通风降湿并用药防治。（来源：贵州农经网《草莓蛇眼病的防治方法》、百度百科《草莓球腔菌》）",
+    "sources": [
+      {
+        "title": "草莓蛇眼病的防治方法，贵州农经网（贵州省农业农村厅）",
+        "url": "https://gznw.guizhou.gov.cn/gznjw_ydb/js/syjs24/bcfz84/qt39/682987/index.html",
+        "grade": "A",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      },
+      {
+        "title": "草莓球腔菌（草莓蛇眼病/叶枯病），百度百科",
+        "url": "https://baike.baidu.com/item/%E8%8D%89%E8%8E%93%E7%90%83%E8%85%94%E8%8F%8C/15619654",
+        "grade": "C",
+        "fetched_at": "2026-09-21T00:00:00+00:00"
+      }
+    ]
+  }
+]

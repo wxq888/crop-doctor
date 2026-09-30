@@ -1,0 +1,87 @@
+/* ==========================================================================
+   全局基础样式（PC 管理端）
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--pc-bg);
+  color: var(--pc-text);
+  font: var(--pc-font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--pc-primary);
+  text-decoration: none;
+}
+
+/* 通用面板（卡片容器，对齐 §2.3 12px 圆角） */
+.cd-panel {
+  background-color: var(--pc-panel);
+  border: 1px solid var(--pc-border);
+  border-radius: var(--pc-radius-card);
+  box-shadow: var(--pc-shadow-card);
+}
+
+/* 面板内区块间距 */
+.cd-panel + .cd-panel {
+  margin-top: var(--pc-space-16);
+}
+
+/* 滚动条美化（暗色观感） */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--pc-border-strong);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--pc-text-muted);
+}
+
+/* 语义色工具类（分级标签 / 风险标签统一取色） */
+.cd-sev-0 {
+  --sev-color: var(--pc-sev-0);
+}
+.cd-sev-1 {
+  --sev-color: var(--pc-sev-1);
+}
+.cd-sev-2 {
+  --sev-color: var(--pc-sev-2);
+}
+.cd-sev-3 {
+  --sev-color: var(--pc-sev-3);
+}
+
+/* 文本工具类 */
+.cd-muted {
+  color: var(--pc-text-muted);
+}
+.cd-mono {
+  font-family: 'JetBrains Mono', 'Consolas', 'Menlo', monospace;
+}
+
+/* 表格空状态与紧凑内边距（提高信息密度，§2.2） */
+.el-table .cell {
+  font-size: 13px;
+}
+.el-table th.el-table__cell {
+  font-weight: 600;
+}

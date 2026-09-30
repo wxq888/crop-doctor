@@ -1,0 +1,67 @@
+/* ==========================================================================
+   作物医生 CropDoctor · PC 管理端 Design Tokens
+   严格对齐 docs/ui-design.md §2（视觉系统）+ §4（PC 管理端）
+   暗色为默认（§2.1 PC 色板）；提供亮色（答辩投影）
+   ========================================================================== */
+
+:root {
+  /* ---------- §2.1 品牌主色（双端共享） ---------- */
+  --pc-primary: #2ba471; /* 植物绿：主按钮 / 选中态 / 品牌标识 */
+  --pc-primary-soft: #e8f5ee; /* 主色浅底：次级按钮 / 高亮底 / 头像底 */
+  --pc-primary-dark: #1e7a54; /* 渐变末端 */
+
+  /* ---------- §2.1 语义色（分级与预警，双端一致） ---------- */
+  --pc-sev-0: #6b7b71; /* 无病害 / 正常 —— 中性灰 */
+  --pc-sev-1: #2ba471; /* 轻微 / 低风险 —— 品牌绿 */
+  --pc-sev-2: #f5a623; /* 中等 / 中风险 —— 琥珀 */
+  --pc-sev-3: #e5534b; /* 严重 / 高风险 —— 红 */
+
+  /* ---------- PC 亮色（答辩投影用；§2.1 UI 未给，按 H5 亮色体系对齐） ---------- */
+  --pc-bg: #f1f4f6; /* 工作区底色 */
+  --pc-panel: #ffffff; /* 卡片 / 面板 */
+  --pc-nav: #141c24; /* 左侧导航（§4.1 固定深色） */
+  --pc-nav-text: #c7d0d8; /* 导航常态文字 */
+  --pc-nav-active: #2ba471; /* 导航选中 */
+  --pc-text: #1f2b24; /* 主文字 */
+  --pc-text-muted: #6b7b71; /* 辅助文字 */
+  --pc-border: #e3e8eb; /* 分隔线 */
+  --pc-border-strong: #cbd5da; /* 强分隔 / 输入框边框 */
+
+  /* ---------- §2.3 圆角与间距（PC 用 5-6px 小圆角） ---------- */
+  --pc-radius: 6px;
+  --pc-radius-card: 12px;
+  --pc-radius-sm: 4px;
+  --pc-space-8: 8px;
+  --pc-space-12: 12px;
+  --pc-space-16: 16px;
+  --pc-space-20: 20px;
+
+  /* ---------- §2.2 字体阶梯（PC 12-14px 正文） ---------- */
+  --pc-font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif;
+  --pc-font-h1: 600 20px/1.3 var(--pc-font-family);
+  --pc-font-title: 600 15px/1.4 var(--pc-font-family);
+  --pc-font-body: 400 13px/1.5 var(--pc-font-family);
+  --pc-font-sm: 400 12px/1.5 var(--pc-font-family);
+
+  /* ---------- 渐变与投影 ---------- */
+  --pc-gradient-brand: linear-gradient(135deg, #2ba471 0%, #1e7a54 100%);
+  --pc-gradient-login: linear-gradient(150deg, #123326 0%, #0f1419 100%);
+  --pc-shadow-primary: 0 6px 16px rgba(43, 164, 113, 0.32);
+  --pc-shadow-card: 0 2px 10px rgba(15, 20, 25, 0.06);
+  --pc-shadow-float: 0 6px 20px rgba(15, 20, 25, 0.12);
+}
+
+/* ---------- §2.1 PC 管理端（暗色 · 默认） ---------- */
+html.dark {
+  --pc-bg: #0f1419; /* 大屏底色 */
+  --pc-panel: #1a222b; /* 卡片 / 面板 */
+  --pc-nav: #141c24; /* 左侧导航 */
+  --pc-nav-text: #aab6c0;
+  --pc-nav-active: #2ba471;
+  --pc-text: #e4e9ee; /* 主文字 */
+  --pc-text-muted: #7c8a96; /* 辅助文字 */
+  --pc-border: #26313c; /* 分隔线 */
+  --pc-border-strong: #33414f; /* 强分隔 / 输入框边框 */
+  --pc-shadow-card: 0 2px 12px rgba(0, 0, 0, 0.35);
+  --pc-shadow-float: 0 6px 20px rgba(0, 0, 0, 0.45);
+}

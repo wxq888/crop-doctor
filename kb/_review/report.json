@@ -1,0 +1,1413 @@
+{
+  "generated_at": "2026-09-17T06:52:52+00:00",
+  "user_agent": "CropDoctorBot/1.0 (+academic graduation project, non-commercial; contact: see repo README)",
+  "params": {
+    "limit": 3,
+    "category": null,
+    "slug": null
+  },
+  "totals": {
+    "classes": 38,
+    "candidates": 83,
+    "unique_urls": 58,
+    "fetched": 58,
+    "downloaded": 0,
+    "failed": 0,
+    "skipped_robots": 0
+  },
+  "classes": [
+    {
+      "slug": "apple-apple-scab",
+      "class_name": "Apple___Apple_scab",
+      "disease_cn": "苹果黑星病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/apple-apple-scab.draft.md",
+      "sources": [
+        {
+          "title": "泾阳：连阴雨天气苹果黑星病防控要点_陕西省农业农村厅",
+          "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202605/t20260515_3638544.html",
+          "grade": "A",
+          "chars": 1721,
+          "zh_chars": 1296,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:52+00:00"
+        },
+        {
+          "title": "礼泉：苹果黑星病识别及防治_陕西省农业农村厅",
+          "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202606/t20260602_3643781.html",
+          "grade": "A",
+          "chars": 1934,
+          "zh_chars": 1536,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:53+00:00"
+        },
+        {
+          "title": "宁夏三农信息服务平台",
+          "url": "https://12316.nynct.nx.gov.cn/zzjs/16851.jhtml",
+          "grade": "A",
+          "chars": 1506,
+          "zh_chars": 1181,
+          "ssl_insecure": true,
+          "fetched_at": "2026-09-17T06:51:46+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "apple-black-rot",
+      "class_name": "Apple___Black_rot",
+      "disease_cn": "苹果黑腐病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/apple-black-rot.draft.md",
+      "sources": [
+        {
+          "title": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250328_3421672.html",
+          "url": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250328_3421672.html",
+          "grade": "A",
+          "chars": 1977,
+          "zh_chars": 1561,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:41+00:00"
+        },
+        {
+          "title": "威海市农业农村局 农业科技 苹果园夏季病虫害防控措施",
+          "url": "https://nyj.weihai.gov.cn/art/2026/7/14/art_24105_6479805.html",
+          "grade": "A",
+          "chars": 1625,
+          "zh_chars": 1237,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:26+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "apple-cedar-apple-rust",
+      "class_name": "Apple___Cedar_apple_rust",
+      "disease_cn": "苹果锈病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/apple-cedar-apple-rust.draft.md",
+      "sources": [
+        {
+          "title": "黄龙：苹果锈病防治技术要点_陕西省农业农村厅",
+          "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202605/t20260509_3636694.html",
+          "grade": "A",
+          "chars": 1912,
+          "zh_chars": 1514,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:49+00:00"
+        },
+        {
+          "title": "病虫情报（第六期）及时防治苹果锈病 确保果树丰产稳产 凤县人民政府",
+          "url": "http://www.sxfx.gov.cn/col3141/col3145/202605/t20260529_1273544.html",
+          "grade": "A",
+          "chars": 1123,
+          "zh_chars": 780,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:38+00:00"
+        },
+        {
+          "title": "苹果锈病",
+          "url": "https://zwfw.gansu.gov.cn/qinan/tsfw/qwntcpszhzt/sc/szqn/gsbh/art/2024/art_8b76ebd708104e2584c50c6db2f1d27e.html",
+          "grade": "A",
+          "chars": 748,
+          "zh_chars": 612,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:50:06+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "apple-healthy",
+      "class_name": "Apple___healthy",
+      "disease_cn": "苹果健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/apple-healthy.draft.md",
+      "sources": [
+        {
+          "title": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250328_3421672.html",
+          "url": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250328_3421672.html",
+          "grade": "A",
+          "chars": 1977,
+          "zh_chars": 1561,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:41+00:00"
+        },
+        {
+          "title": "威海市农业农村局 农业科技 苹果园夏季病虫害防控措施",
+          "url": "https://nyj.weihai.gov.cn/art/2026/7/14/art_24105_6479805.html",
+          "grade": "A",
+          "chars": 1625,
+          "zh_chars": 1237,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:26+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "blueberry-healthy",
+      "class_name": "Blueberry___healthy",
+      "disease_cn": "蓝莓健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/blueberry-healthy.draft.md",
+      "sources": [
+        {
+          "title": "北京设施基质蓝莓近期栽培管理意见",
+          "url": "https://nyncj.beijing.gov.cn/nyj/zwgk/ztgk/nyjstgqk/744105632/index.html",
+          "grade": "A",
+          "chars": 1669,
+          "zh_chars": 1300,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:16+00:00"
+        },
+        {
+          "title": "怀宁县农业农村局关于推介发布<br/>2025年农业主推技术的通知_信息公开_怀宁县人民政府",
+          "url": "https://www.ahhn.gov.cn/public/2000001071/2029900838.html",
+          "grade": "A",
+          "chars": 26460,
+          "zh_chars": 20574,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:59+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "cherry-healthy",
+      "class_name": "Cherry___healthy",
+      "disease_cn": "樱桃健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 1,
+      "a_grade_count": 1,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/cherry-healthy.draft.md",
+      "sources": [
+        {
+          "title": "关于印发设施水果生产技术指导意见的通知（草莓、大樱桃、桃、葡萄）-蒙阴县人民政府",
+          "url": "http://www.mengyin.gov.cn/info/1601/161984.htm",
+          "grade": "A",
+          "chars": 4852,
+          "zh_chars": 3651,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:25+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "cherry-powdery-mildew",
+      "class_name": "Cherry___Powdery_mildew",
+      "disease_cn": "樱桃白粉病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/cherry-powdery-mildew.draft.md",
+      "sources": [
+        {
+          "title": "府谷：果树白粉病防治技术_陕西省农业农村厅",
+          "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202606/t20260610_3646156.html",
+          "grade": "A",
+          "chars": 1165,
+          "zh_chars": 907,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:56+00:00"
+        },
+        {
+          "title": "关于印发设施水果生产技术指导意见的通知（草莓、大樱桃、桃、葡萄）-蒙阴县人民政府",
+          "url": "http://www.mengyin.gov.cn/info/1601/161984.htm",
+          "grade": "A",
+          "chars": 4852,
+          "zh_chars": 3651,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:25+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "corn-cercospora-leaf-spot-gray-leaf-spot",
+      "class_name": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+      "disease_cn": "玉米灰斑病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/corn-cercospora-leaf-spot-gray-leaf-spot.draft.md",
+      "sources": [
+        {
+          "title": "2025年十堰市汛期玉米生产技术指导意见 - 通知公告 十堰市农业农村局",
+          "url": "https://nyj.shiyan.gov.cn/snyj/sfgwgkml/gzdt/202507/t20250706_4768971.shtml",
+          "grade": "A",
+          "chars": 2701,
+          "zh_chars": 2033,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:23+00:00"
+        },
+        {
+          "title": "易门县政府信息公开",
+          "url": "https://www.ym.gov.cn/ymxzfxxgk/ymxnyjzhxxny/20230824/1467321.html",
+          "grade": "A",
+          "chars": 3668,
+          "zh_chars": 2467,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:50:01+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "corn-common-rust",
+      "class_name": "Corn___Common_rust",
+      "disease_cn": "玉米普通锈病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/corn-common-rust.draft.md",
+      "sources": [
+        {
+          "title": "2025年十堰市汛期玉米生产技术指导意见 - 通知公告 十堰市农业农村局",
+          "url": "https://nyj.shiyan.gov.cn/snyj/sfgwgkml/gzdt/202507/t20250706_4768971.shtml",
+          "grade": "A",
+          "chars": 2701,
+          "zh_chars": 2033,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:23+00:00"
+        },
+        {
+          "title": "易门县政府信息公开",
+          "url": "https://www.ym.gov.cn/ymxzfxxgk/ymxnyjzhxxny/20230824/1467321.html",
+          "grade": "A",
+          "chars": 3668,
+          "zh_chars": 2467,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:50:01+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "corn-healthy",
+      "class_name": "Corn___healthy",
+      "disease_cn": "玉米健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/corn-healthy.draft.md",
+      "sources": [
+        {
+          "title": "2026年北京市夏玉米生产技术指导意见",
+          "url": "https://nyncj.beijing.gov.cn/nyj/zwgk/ztgk/nyjstgqk/744038901",
+          "grade": "A",
+          "chars": 2269,
+          "zh_chars": 1771,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:13+00:00"
+        },
+        {
+          "title": "襄阳市春玉米高产栽培技术要点-襄阳市农业农村局",
+          "url": "http://nyncj.xiangyang.gov.cn/hdjl/hygq/202604/t20260401_3982320.shtml",
+          "grade": "A",
+          "chars": 1222,
+          "zh_chars": 810,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:20+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "corn-northern-leaf-blight",
+      "class_name": "Corn___Northern_Leaf_Blight",
+      "disease_cn": "玉米大斑病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/corn-northern-leaf-blight.draft.md",
+      "sources": [
+        {
+          "title": "2025年十堰市汛期玉米生产技术指导意见 - 通知公告 十堰市农业农村局",
+          "url": "https://nyj.shiyan.gov.cn/snyj/sfgwgkml/gzdt/202507/t20250706_4768971.shtml",
+          "grade": "A",
+          "chars": 2701,
+          "zh_chars": 2033,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:23+00:00"
+        },
+        {
+          "title": "易门县政府信息公开",
+          "url": "https://www.ym.gov.cn/ymxzfxxgk/ymxnyjzhxxny/20230824/1467321.html",
+          "grade": "A",
+          "chars": 3668,
+          "zh_chars": 2467,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:50:01+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "grape-black-rot",
+      "class_name": "Grape___Black_rot",
+      "disease_cn": "葡萄黑腐病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/grape-black-rot.draft.md",
+      "sources": [
+        {
+          "title": "植物保护技术_中国农业科技信息网",
+          "url": "https://cast.caas.cn/kj/syjs/zwbhjs/239406.html",
+          "grade": "A",
+          "chars": 1513,
+          "zh_chars": 1077,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:47+00:00"
+        },
+        {
+          "title": "府谷：雨后葡萄园病虫害防治措施_陕西省农业农村厅",
+          "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202406/t20240627_3451171.html",
+          "grade": "A",
+          "chars": 1319,
+          "zh_chars": 1027,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:45+00:00"
+        },
+        {
+          "title": "四川省农业农村厅",
+          "url": "https://nynct.sc.gov.cn/nynct/c101264/2022/6/13/945cc855eb594ef091ceffe1a8f89860.shtml",
+          "grade": "A",
+          "chars": 1662,
+          "zh_chars": 1269,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:43+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "grape-esca-black-measles",
+      "class_name": "Grape___Esca_(Black_Measles)",
+      "disease_cn": "葡萄埃斯卡病（黑麻疹）",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/grape-esca-black-measles.draft.md",
+      "sources": [
+        {
+          "title": "植物保护技术_中国农业科技信息网",
+          "url": "https://cast.caas.cn/kj/syjs/zwbhjs/274749.html",
+          "grade": "A",
+          "chars": 765,
+          "zh_chars": 573,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:52+00:00"
+        },
+        {
+          "title": "贵州农经网-葡萄副梢枯死",
+          "url": "https://gznw.guizhou.gov.cn/gznjw_ydb/js/syjs24/zzjs/sg0/647147/index.html",
+          "grade": "A",
+          "chars": 647,
+          "zh_chars": 424,
+          "ssl_insecure": true,
+          "fetched_at": "2026-09-17T06:45:55+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "grape-healthy",
+      "class_name": "Grape___healthy",
+      "disease_cn": "葡萄健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/grape-healthy.draft.md",
+      "sources": [
+        {
+          "title": "关于印发设施水果生产技术指导意见的通知（草莓、大樱桃、桃、葡萄）-蒙阴县人民政府",
+          "url": "http://www.mengyin.gov.cn/info/1601/161984.htm",
+          "grade": "A",
+          "chars": 4852,
+          "zh_chars": 3651,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:25+00:00"
+        },
+        {
+          "title": "榆林市农业农村局_ 2024年葡萄病虫害防控技术方案",
+          "url": "https://nyj.yl.gov.cn/yw_0/zhfw/kjjy/202403/t20240324_1611482.html",
+          "grade": "A",
+          "chars": 8760,
+          "zh_chars": 7482,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:31+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "grape-leaf-blight-isariopsis-leaf-spot",
+      "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "disease_cn": "葡萄叶枯病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/grape-leaf-blight-isariopsis-leaf-spot.draft.md",
+      "sources": [
+        {
+          "title": "四川省农业农村厅",
+          "url": "https://nynct.sc.gov.cn/nynct/c101264/2022/6/13/945cc855eb594ef091ceffe1a8f89860.shtml",
+          "grade": "A",
+          "chars": 1662,
+          "zh_chars": 1269,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:43+00:00"
+        },
+        {
+          "title": "府谷：雨后葡萄园病虫害防治措施_陕西省农业农村厅",
+          "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202406/t20240627_3451171.html",
+          "grade": "A",
+          "chars": 1319,
+          "zh_chars": 1027,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:45+00:00"
+        },
+        {
+          "title": "榆林市农业农村局_ 2024年葡萄病虫害防控技术方案",
+          "url": "https://nyj.yl.gov.cn/yw_0/zhfw/kjjy/202403/t20240324_1611482.html",
+          "grade": "A",
+          "chars": 8760,
+          "zh_chars": 7482,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:31+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "orange-haunglongbing-citrus-greening",
+      "class_name": "Orange___Haunglongbing_(Citrus_greening)",
+      "disease_cn": "柑橘黄龙病",
+      "category": "检疫性",
+      "template": "D",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/orange-haunglongbing-citrus-greening.draft.md",
+      "sources": [
+        {
+          "title": "如何预防柑橘黄龙病？_种植类_上海市农业农村委员会",
+          "url": "https://nyncw.sh.gov.cn/bwbdzzl/20190115/0009-111668.html",
+          "grade": "A",
+          "chars": 527,
+          "zh_chars": 393,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:58:01+00:00"
+        },
+        {
+          "title": "江西省农业农村厅 会昌县病虫预报2026年第5期：柑橘黄龙病识别与防控技术",
+          "url": "https://nync.jiangxi.gov.cn/jxsnynct/bcyb/content/content_2041771858626936832.html",
+          "grade": "A",
+          "chars": 1244,
+          "zh_chars": 1040,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T02:00:47+00:00"
+        },
+        {
+          "title": "四川省农业农村厅",
+          "url": "https://nynct.sc.gov.cn/nynct/c101264/2025/7/2/e1a18066b1b14479992ecf112c3617c6.shtml",
+          "grade": "A",
+          "chars": 1749,
+          "zh_chars": 1392,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T02:00:47+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "peach-bacterial-spot",
+      "class_name": "Peach___Bacterial_spot",
+      "disease_cn": "桃细菌性穿孔病",
+      "category": "细菌",
+      "template": "A",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/peach-bacterial-spot.draft.md",
+      "sources": [
+        {
+          "title": "桃树细菌性穿孔病咋防治_农事指导_专题专栏_综合动态_常德市农业农村局",
+          "url": "https://nyncj.changde.gov.cn/zhdt/ztzl/nszd/content_283214",
+          "grade": "A",
+          "chars": 1048,
+          "zh_chars": 742,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:19+00:00"
+        },
+        {
+          "title": "榆林市农业农村局_ 九月桃园管得好 来年桃子品质好",
+          "url": "https://nyj.yl.gov.cn/yw_0/nyfw/njtg/202609/t20260908_2125988.html",
+          "grade": "A",
+          "chars": 2671,
+          "zh_chars": 2183,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:29+00:00"
+        },
+        {
+          "title": "冬季桃园防病虫莫手软-武汉市农业农村局",
+          "url": "https://nyncj.wuhan.gov.cn/ztzl_25/zxzt/nsnq/nsnq_nsjy/202401/t20240109_2338986.html",
+          "grade": "A",
+          "chars": 1221,
+          "zh_chars": 855,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:51:45+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "peach-healthy",
+      "class_name": "Peach___healthy",
+      "disease_cn": "桃健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/peach-healthy.draft.md",
+      "sources": [
+        {
+          "title": "榆林市农业农村局_ 九月桃园管得好 来年桃子品质好",
+          "url": "https://nyj.yl.gov.cn/yw_0/nyfw/njtg/202609/t20260908_2125988.html",
+          "grade": "A",
+          "chars": 2671,
+          "zh_chars": 2183,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:29+00:00"
+        },
+        {
+          "title": "冬季桃园防病虫莫手软-武汉市农业农村局",
+          "url": "https://nyncj.wuhan.gov.cn/ztzl_25/zxzt/nsnq/nsnq_nsjy/202401/t20240109_2338986.html",
+          "grade": "A",
+          "chars": 1221,
+          "zh_chars": 855,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:51:45+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "pepper-bell-bacterial-spot",
+      "class_name": "Pepper,_bell___Bacterial_spot",
+      "disease_cn": "甜椒细菌性斑点病",
+      "category": "细菌",
+      "template": "A",
+      "source_count": 1,
+      "a_grade_count": 1,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/pepper-bell-bacterial-spot.draft.md",
+      "sources": [
+        {
+          "title": "植物保护技术_中国农业科技信息网",
+          "url": "https://cast.caas.cn/kj/syjs/zwbhjs/264909.html",
+          "grade": "A",
+          "chars": 722,
+          "zh_chars": 507,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:49+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "pepper-bell-healthy",
+      "class_name": "Pepper,_bell___healthy",
+      "disease_cn": "甜椒健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 1,
+      "a_grade_count": 1,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/pepper-bell-healthy.draft.md",
+      "sources": [
+        {
+          "title": "秋季塑料大棚辣（甜）椒优质高效生产指导意见",
+          "url": "https://nyncj.beijing.gov.cn/nyj/zwgk/ztgk/nyjstgqk/744038865/index.html",
+          "grade": "A",
+          "chars": 6040,
+          "zh_chars": 4633,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:11+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "potato-early-blight",
+      "class_name": "Potato___Early_blight",
+      "disease_cn": "马铃薯早疫病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/potato-early-blight.draft.md",
+      "sources": [
+        {
+          "title": "余庆县农业农村局关于印发《余庆县2026年主要农作物病虫草鼠害绿色防控技术方案》的通知",
+          "url": "https://www.zgyq.gov.cn/bmxzxxgk/xnyncj/zdlyxxgk/nyncgznyncj/202604/t20260408_89973668.html",
+          "grade": "A",
+          "chars": 14833,
+          "zh_chars": 11928,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:50:03+00:00"
+        },
+        {
+          "title": "会宁县当前秋粮田间管理技术指导意见",
+          "url": "https://www.huining.gov.cn/xxgk/bmxxgk/nyncj/fdzdgknr/qnhn/art/2026/art_709b732be6e849adb98fee56c9c056d4.html",
+          "grade": "A",
+          "chars": 1162,
+          "zh_chars": 933,
+          "ssl_insecure": true,
+          "fetched_at": "2026-09-17T06:51:47+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "potato-healthy",
+      "class_name": "Potato___healthy",
+      "disease_cn": "马铃薯健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/potato-healthy.draft.md",
+      "sources": [
+        {
+          "title": "会宁县当前秋粮田间管理技术指导意见",
+          "url": "https://www.huining.gov.cn/xxgk/bmxxgk/nyncj/fdzdgknr/qnhn/art/2026/art_709b732be6e849adb98fee56c9c056d4.html",
+          "grade": "A",
+          "chars": 1162,
+          "zh_chars": 933,
+          "ssl_insecure": true,
+          "fetched_at": "2026-09-17T06:51:47+00:00"
+        },
+        {
+          "title": "余庆县农业农村局关于印发《余庆县2026年主要农作物病虫草鼠害绿色防控技术方案》的通知",
+          "url": "https://www.zgyq.gov.cn/bmxzxxgk/xnyncj/zdlyxxgk/nyncgznyncj/202604/t20260408_89973668.html",
+          "grade": "A",
+          "chars": 14833,
+          "zh_chars": 11928,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:50:03+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "potato-late-blight",
+      "class_name": "Potato___Late_blight",
+      "disease_cn": "马铃薯晚疫病",
+      "category": "卵菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/potato-late-blight.draft.md",
+      "sources": [
+        {
+          "title": "余庆县农业农村局关于印发《余庆县2026年主要农作物病虫草鼠害绿色防控技术方案》的通知",
+          "url": "https://www.zgyq.gov.cn/bmxzxxgk/xnyncj/zdlyxxgk/nyncgznyncj/202604/t20260408_89973668.html",
+          "grade": "A",
+          "chars": 14833,
+          "zh_chars": 11928,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:50:03+00:00"
+        },
+        {
+          "title": "会宁县当前秋粮田间管理技术指导意见",
+          "url": "https://www.huining.gov.cn/xxgk/bmxxgk/nyncj/fdzdgknr/qnhn/art/2026/art_709b732be6e849adb98fee56c9c056d4.html",
+          "grade": "A",
+          "chars": 1162,
+          "zh_chars": 933,
+          "ssl_insecure": true,
+          "fetched_at": "2026-09-17T06:51:47+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "raspberry-healthy",
+      "class_name": "Raspberry___healthy",
+      "disease_cn": "树莓健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 1,
+      "a_grade_count": 1,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/raspberry-healthy.draft.md",
+      "sources": [
+        {
+          "title": "树莓丰产的栽培管理技术 - 湖南省林业局",
+          "url": "https://lyj.hunan.gov.cn/lyj/tslm_71206/lykp/syjs/201608/t20160828_3238363.html",
+          "grade": "A",
+          "chars": 2093,
+          "zh_chars": 1560,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:58+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "soybean-healthy",
+      "class_name": "Soybean___healthy",
+      "disease_cn": "大豆健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/soybean-healthy.draft.md",
+      "sources": [
+        {
+          "title": "2026年黑龙江省备春耕大豆生产技术指导意见_种植业信息_省农业农村厅",
+          "url": "https://nynct.hlj.gov.cn/nynct/c115393/202603/c00_31919966.shtml",
+          "grade": "A",
+          "chars": 4515,
+          "zh_chars": 3629,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:40+00:00"
+        },
+        {
+          "title": "2026年北京市春播大豆生产技术指导意见",
+          "url": "https://nyncj.beijing.gov.cn/nyj/zwgk/ztgk/nyjstgqk/744001007/index.html",
+          "grade": "A",
+          "chars": 2375,
+          "zh_chars": 1783,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:09+00:00"
+        },
+        {
+          "title": "2026年天津市夏大豆生产技术意见_通知公告",
+          "url": "https://nync.tj.gov.cn/ZWGK0/TZGG152022/202606/t20260616_7318524.html",
+          "grade": "A",
+          "chars": 1992,
+          "zh_chars": 1593,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:05+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "squash-powdery-mildew",
+      "class_name": "Squash___Powdery_mildew",
+      "disease_cn": "南瓜白粉病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/squash-powdery-mildew.draft.md",
+      "sources": [
+        {
+          "title": "农业科技",
+          "url": "https://nync.jiuquan.gov.cn/nyncj/c106977/202303/4884109201bf4c748675cd8ba9cef9c4.shtml",
+          "grade": "A",
+          "chars": 1359,
+          "zh_chars": 943,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:02+00:00"
+        },
+        {
+          "title": "子洲：注意防治南瓜白粉病_陕西省农业农村厅",
+          "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202408/t20240828_3451324.html",
+          "grade": "A",
+          "chars": 1375,
+          "zh_chars": 1047,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:47+00:00"
+        },
+        {
+          "title": "甘泉：设施蔬菜白粉病发生趋势及综合防控技术_陕西省农业农村厅",
+          "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202606/t20260615_3647492.html",
+          "grade": "A",
+          "chars": 1675,
+          "zh_chars": 1317,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:58+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "strawberry-healthy",
+      "class_name": "Strawberry___healthy",
+      "disease_cn": "草莓健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/strawberry-healthy.draft.md",
+      "sources": [
+        {
+          "title": "草莓7-8月栽培管理技术要点",
+          "url": "https://nw.trs.gov.cn/xwzx/gzdt/202407/t20240711_85088954.html",
+          "grade": "A",
+          "chars": 2654,
+          "zh_chars": 1700,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:20+00:00"
+        },
+        {
+          "title": "草莓5-6月管理技术要点",
+          "url": "https://nw.trs.gov.cn/xwzx/gzdt/202405/t20240528_84692773.html",
+          "grade": "A",
+          "chars": 1782,
+          "zh_chars": 1002,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:18+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "strawberry-leaf-scorch",
+      "class_name": "Strawberry___Leaf_scorch",
+      "disease_cn": "草莓叶枯病（蛇眼病）",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/strawberry-leaf-scorch.draft.md",
+      "sources": [
+        {
+          "title": "承德市农业农村局 农牧技术 大棚草莓主要病虫害的防治",
+          "url": "https://nyncj.chengde.gov.cn/art/2022/10/13/art_667_881161.html",
+          "grade": "A",
+          "chars": 1802,
+          "zh_chars": 1330,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:25+00:00"
+        },
+        {
+          "title": "草莓7-8月栽培管理技术要点",
+          "url": "https://nw.trs.gov.cn/xwzx/gzdt/202407/t20240711_85088954.html",
+          "grade": "A",
+          "chars": 2654,
+          "zh_chars": 1700,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:20+00:00"
+        },
+        {
+          "title": "草莓5-6月管理技术要点",
+          "url": "https://nw.trs.gov.cn/xwzx/gzdt/202405/t20240528_84692773.html",
+          "grade": "A",
+          "chars": 1782,
+          "zh_chars": 1002,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:18+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-bacterial-spot",
+      "class_name": "Tomato___Bacterial_spot",
+      "disease_cn": "番茄细菌性斑点病",
+      "category": "细菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-bacterial-spot.draft.md",
+      "sources": [
+        {
+          "title": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250331_3421923.html",
+          "url": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250331_3421923.html",
+          "grade": "A",
+          "chars": 2037,
+          "zh_chars": 1561,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:43+00:00"
+        },
+        {
+          "title": "除了西红柿病毒病，这五种危害叶片的病害同样很棘手",
+          "url": "http://nyncj.qz.gov.cn/art/2020/4/2/art_1594263_42463797.html",
+          "grade": "A",
+          "chars": 1567,
+          "zh_chars": 1087,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:14+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-early-blight",
+      "class_name": "Tomato___Early_blight",
+      "disease_cn": "番茄早疫病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 1,
+      "a_grade_count": 1,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-early-blight.draft.md",
+      "sources": [
+        {
+          "title": "实用科技-巴彦淖尔市科技局",
+          "url": "http://kjj.bynr.gov.cn/sykj_1/202301/t20230116_283026.html",
+          "grade": "A",
+          "chars": 1765,
+          "zh_chars": 1338,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:57:46+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-healthy",
+      "class_name": "Tomato___healthy",
+      "disease_cn": "番茄健康叶",
+      "category": "健康",
+      "template": "E",
+      "source_count": 1,
+      "a_grade_count": 1,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-healthy.draft.md",
+      "sources": [
+        {
+          "title": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250331_3421923.html",
+          "url": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250331_3421923.html",
+          "grade": "A",
+          "chars": 2037,
+          "zh_chars": 1561,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:43+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-late-blight",
+      "class_name": "Tomato___Late_blight",
+      "disease_cn": "番茄晚疫病",
+      "category": "卵菌",
+      "template": "A",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-late-blight.draft.md",
+      "sources": [
+        {
+          "title": "任城区政府门户网站 农技推广 番茄晚疫病的症状及综合防治",
+          "url": "http://jw.rencheng.gov.cn/art/2026/3/5/art_34809_2824335.html",
+          "grade": "A",
+          "chars": 1086,
+          "zh_chars": 791,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:57:46+00:00"
+        },
+        {
+          "title": "兰州市农业农村局 农业技术 温室番茄晚疫病发生，注意防控",
+          "url": "https://nync.lanzhou.gov.cn/art/2020/12/31/art_2202_960339.html",
+          "grade": "A",
+          "chars": 1182,
+          "zh_chars": 962,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:57:49+00:00"
+        },
+        {
+          "title": "实用科技-巴彦淖尔市科技局",
+          "url": "http://kjj.bynr.gov.cn/sykj_1/202301/t20230116_283026.html",
+          "grade": "A",
+          "chars": 1765,
+          "zh_chars": 1338,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:57:46+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-leaf-mold",
+      "class_name": "Tomato___Leaf_Mold",
+      "disease_cn": "番茄叶霉病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-leaf-mold.draft.md",
+      "sources": [
+        {
+          "title": "番茄叶霉病的发病规律及其防治方法",
+          "url": "http://nyncj.qz.gov.cn/art/2021/4/26/art_1594263_58940263.html",
+          "grade": "A",
+          "chars": 1005,
+          "zh_chars": 832,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:17+00:00"
+        },
+        {
+          "title": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250331_3421923.html",
+          "url": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250331_3421923.html",
+          "grade": "A",
+          "chars": 2037,
+          "zh_chars": 1561,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:43+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-septoria-leaf-spot",
+      "class_name": "Tomato___Septoria_leaf_spot",
+      "disease_cn": "番茄斑枯病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-septoria-leaf-spot.draft.md",
+      "sources": [
+        {
+          "title": "除了西红柿病毒病，这五种危害叶片的病害同样很棘手",
+          "url": "http://nyncj.qz.gov.cn/art/2020/4/2/art_1594263_42463797.html",
+          "grade": "A",
+          "chars": 1567,
+          "zh_chars": 1087,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:14+00:00"
+        },
+        {
+          "title": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250331_3421923.html",
+          "url": "https://agri.jl.gov.cn/yw/zlaq/202503/t20250331_3421923.html",
+          "grade": "A",
+          "chars": 2037,
+          "zh_chars": 1561,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:43+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-spider-mites-two-spotted-spider-mite",
+      "class_name": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "disease_cn": "番茄二斑叶螨（虫害）",
+      "category": "虫害",
+      "template": "C",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-spider-mites-two-spotted-spider-mite.draft.md",
+      "sources": [
+        {
+          "title": "安塞：大棚蔬菜红蜘蛛病虫情报_陕西省农业农村厅",
+          "url": "https://nynct.shaanxi.gov.cn/zt/snzbxx/zbjs/202604/t20260423_3632553.html",
+          "grade": "A",
+          "chars": 1711,
+          "zh_chars": 1328,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:57:58+00:00"
+        },
+        {
+          "title": "夏天大棚蔬菜如何防止叶螨为害",
+          "url": "https://www.linan.gov.cn/art/2015/2/9/art_1367638_24510021.html",
+          "grade": "A",
+          "chars": 1065,
+          "zh_chars": 902,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:58:04+00:00"
+        },
+        {
+          "title": "植物保护技术_中国农业科技信息网",
+          "url": "https://cast.caas.cn/kj/syjs/zwbhjs/242470.html",
+          "grade": "A",
+          "chars": 685,
+          "zh_chars": 507,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:57:49+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-target-spot",
+      "class_name": "Tomato___Target_Spot",
+      "disease_cn": "番茄靶斑病",
+      "category": "真菌",
+      "template": "A",
+      "source_count": 2,
+      "a_grade_count": 2,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-target-spot.draft.md",
+      "sources": [
+        {
+          "title": "当前设施蔬菜病害防控措施",
+          "url": "https://nyncj.changzhi.gov.cn/fwsn/njtg/202301/t20230104_2690862.html",
+          "grade": "A",
+          "chars": 1345,
+          "zh_chars": 1075,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:22+00:00"
+        },
+        {
+          "title": "除了西红柿病毒病，这五种危害叶片的病害同样很棘手",
+          "url": "http://nyncj.qz.gov.cn/art/2020/4/2/art_1594263_42463797.html",
+          "grade": "A",
+          "chars": 1567,
+          "zh_chars": 1087,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:14+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-tomato-mosaic-virus",
+      "class_name": "Tomato___Tomato_mosaic_virus",
+      "disease_cn": "番茄花叶病毒病",
+      "category": "病毒",
+      "template": "B",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-tomato-mosaic-virus.draft.md",
+      "sources": [
+        {
+          "title": "莒县人民政府 种养技术 大棚番茄病毒病的发生规律及防治技术",
+          "url": "http://www.juxian.gov.cn/art/2025/12/8/art_32677_10403494.html",
+          "grade": "A",
+          "chars": 2105,
+          "zh_chars": 1650,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:45:22+00:00"
+        },
+        {
+          "title": "番茄病毒病症状识别及防治方法--渭南市农业农村局",
+          "url": "https://nyncj.weinan.gov.cn/nyfw/zyy/1792736864132157441.html",
+          "grade": "A",
+          "chars": 1397,
+          "zh_chars": 982,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:49:38+00:00"
+        },
+        {
+          "title": "番茄病毒病的防治措施-果树蔬菜_ 内蒙古自治区农牧厅",
+          "url": "https://nmt.nmg.gov.cn/yw/syjs/gssc/202007/t20200727_1577340.html",
+          "grade": "A",
+          "chars": 2221,
+          "zh_chars": 1688,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T06:46:00+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    },
+    {
+      "slug": "tomato-tomato-yellow-leaf-curl-virus",
+      "class_name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "disease_cn": "番茄黄化曲叶病毒病",
+      "category": "病毒",
+      "template": "B",
+      "source_count": 3,
+      "a_grade_count": 3,
+      "missing_fields": [
+        "分节正文待人工撰写"
+      ],
+      "draft": "kb/_review/tomato-tomato-yellow-leaf-curl-virus.draft.md",
+      "sources": [
+        {
+          "title": "宝鸡市农业农村局 农业要闻 设施番茄TY病毒病危害大，防治有办法！",
+          "url": "https://nyncj.baoji.gov.cn/col4165/col4170/202307/t20230727_823434.html",
+          "grade": "A",
+          "chars": 949,
+          "zh_chars": 677,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:58:11+00:00"
+        },
+        {
+          "title": "作物生病不要慌，植物医生来帮忙-番茄篇（四）——番茄黄化曲叶病毒病",
+          "url": "https://nyncj.beijing.gov.cn/nyj/zwgk/ztgk/zwbhxx/436225706/index.html",
+          "grade": "A",
+          "chars": 1147,
+          "zh_chars": 870,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:57:52+00:00"
+        },
+        {
+          "title": "番茄黄化曲叶病毒病防治方法",
+          "url": "https://nyncj.lsz.gov.cn/kjfw/zzjs/201606/t20160621_1062055.html",
+          "grade": "A",
+          "chars": 1060,
+          "zh_chars": 831,
+          "ssl_insecure": false,
+          "fetched_at": "2026-09-17T01:57:55+00:00"
+        }
+      ],
+      "failed": [],
+      "skipped_robots": []
+    }
+  ]
+}

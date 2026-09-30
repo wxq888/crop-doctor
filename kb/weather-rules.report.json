@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-21T00:00:00+00:00",
+  "title": "病害气象预警规则采集报告（权威来源溯源 sidecar）",
+  "target_disease_total": 26,
+  "covered": 25,
+  "uncovered": 1,
+  "coverage_note": "disease_weather_rules 表无 source 字段，故完整溯源保存于本文件与 kb/weather-rules.json 各规则的 sources 字段；入库时把来源简称写入 advice。",
+  "uncovered_list": [
+    {
+      "disease": "葡萄埃斯卡病（黑麻疹）",
+      "crop": "葡萄",
+      "slug": "grape-esca-black-measles",
+      "reason": "该病为葡萄枝干病害复合体（Esca disease complex），主要与树龄、修剪伤口、水分胁迫等非气象因子相关，检索到的权威资料（中国农科院《国内外葡萄枝干病害的发生危害与病原菌种类》、美国 PNW Handbooks《Esca》）均未给出可判定的温湿度/降雨阈值（现有 kb/diseases 档案亦标注「来源资料未涵盖」）。为避免编造阈值，本规则未纳入。"
+    }
+  ],
+  "excluded_healthy": {
+    "count": 12,
+    "note": "12 个「健康」类（doc_type != disease）非病害，按需求不生成气象规则。"
+  },
+  "field_notes": {
+    "temp_min_temp_max": "来源为区间者取区间端点，如「18~22℃」→ temp_min=18, temp_max=22。",
+    "humidity_max": "仅当来源给出「低于 X% 有利」时填写（如番茄二斑叶螨 RH 35%~55%），否则留空。",
+    "rain_condition": "来源强调连阴雨/多雨/高湿 → rain；强调干旱少雨时发生 → no_rain；未提 → any。",
+    "risk_level": "来源强调「爆发/流行/发生严重/毁灭性」→ high；描述为「易发生/高发」但非爆发 → mid。",
+    "grape_leaf_blight": "葡萄叶枯病来源仅给出「高温高湿+多雨」，未给具体温度，故 temp_min/temp_max 留空，仅以 humidity_min=85 + rain 约束。",
+    "citrus_hlb": "柑橘黄龙病本身无气象阈值，规则采用其唯一传播媒介柑橘木虱「发育繁殖适宜温度 20~30℃、高温多雨虫口密增」作为气象代理指标，advice 已注明。"
+  }
+}

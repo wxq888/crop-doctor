@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Element Plus 变量覆盖（对齐 PC 色板）
+   - 亮色：覆盖 :root 的 Element 变量
+   - 暗色：覆盖 html.dark（需在 element-plus 暗色 css-vars 之后引入）
+   ========================================================================== */
+
+/* ---------- 亮色 ---------- */
+:root {
+  --el-color-primary: #2ba471;
+  --el-color-primary-light-3: #56b98f;
+  --el-color-primary-light-5: #83c9ac;
+  --el-color-primary-light-7: #afdcc9;
+  --el-color-primary-light-8: #c5e5d7;
+  --el-color-primary-light-9: #e8f5ee;
+  --el-color-primary-dark-2: #1e7a54;
+  --el-color-success: #2ba471;
+  --el-color-warning: #f5a623;
+  --el-color-danger: #e5534b;
+  --el-color-error: #e5534b;
+
+  --el-bg-color: #ffffff;
+  --el-bg-color-page: #f1f4f6;
+  --el-bg-color-overlay: #ffffff;
+  --el-text-color-primary: #1f2b24;
+  --el-text-color-regular: #33403a;
+  --el-text-color-secondary: #6b7b71;
+  --el-text-color-placeholder: #9aa6a0;
+  --el-border-color: #e3e8eb;
+  --el-border-color-light: #e8ecee;
+  --el-border-color-lighter: #eef2f4;
+  --el-fill-color-blank: #ffffff;
+  --el-fill-color-light: #f5f7f6;
+  --el-fill-color-lighter: #fafbfa;
+  --el-fill-color: #f5f7f6;
+  --el-border-radius-base: 6px;
+  --el-font-size-base: 13px;
+}
+
+/* ---------- 暗色 ---------- */
+html.dark {
+  --el-color-primary: #2ba471;
+  --el-color-primary-light-3: #27885f;
+  --el-color-primary-light-5: #22694b;
+  --el-color-primary-light-7: #1c4a36;
+  --el-color-primary-light-8: #193c2d;
+  --el-color-primary-light-9: #162e23;
+  --el-color-primary-dark-2: #3fb583;
+  --el-color-success: #2ba471;
+  --el-color-warning: #f5a623;
+  --el-color-danger: #e5534b;
+  --el-color-error: #e5534b;
+
+  --el-bg-color: #1a222b;
+  --el-bg-color-page: #0f1419;
+  --el-bg-color-overlay: #1a222b;
+  --el-text-color-primary: #e4e9ee;
+  --el-text-color-regular: #c7d0d8;
+  --el-text-color-secondary: #7c8a96;
+  --el-text-color-placeholder: #5f6b76;
+  --el-border-color: #26313c;
+  --el-border-color-light: #26313c;
+  --el-border-color-lighter: #1f2933;
+  --el-border-color-extra-light: #1a222b;
+  --el-fill-color-blank: #1a222b;
+  --el-fill-color-light: #1f2933;
+  --el-fill-color-lighter: #1a222b;
+  --el-fill-color-dark: #141c24;
+  --el-fill-color: #1f2933;
+  --el-border-radius-base: 6px;
+  --el-font-size-base: 13px;
+
+  /* 表格 / 卡片 / 分页暗色微调 */
+  --el-mask-color: rgba(15, 20, 25, 0.8);
+  --el-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --el-box-shadow-light: 0 2px 12px rgba(0, 0, 0, 0.35);
+}

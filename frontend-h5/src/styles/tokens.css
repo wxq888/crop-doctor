@@ -1,0 +1,142 @@
+/* ==========================================================================
+   作物医生 CropDoctor · H5 Design Tokens
+   严格对齐 docs/ui-design.md §2（视觉系统 / Design Tokens）
+   ========================================================================== */
+
+:root {
+  /* ---------- §2.1 品牌主色（双端共享） ---------- */
+  --color-primary: #2ba471; /* 植物绿：主按钮 / 选中态 / 品牌标识 */
+  --color-primary-soft: #e8f5ee; /* 主色浅底：次级按钮 / 高亮底 / 头像底 */
+  --color-primary-dark: #1e7a54; /* 渐变末端（hero 渐变 #2BA471 → #1E7A54） */
+
+  /* ---------- §2.1 H5 用户端 ---------- */
+  --color-bg: #f5f7f6; /* 页面底色（微灰绿，护眼） */
+  --color-text: #1f2b24; /* 主文字 */
+  --color-text-muted: #6b7b71; /* 辅助文字 / 时间戳 / 标签 */
+  --color-surface: #ffffff; /* 卡片 / 气泡白底 */
+  --color-border: #eceeed; /* 极浅分隔线 */
+
+  /* ---------- §2.1 语义色（分级与预警，双端一致） ---------- */
+  --severity-0: #6b7b71; /* 无病害 / 正常 —— 中性灰 */
+  --severity-1: #2ba471; /* 轻微 / 低风险 —— 品牌绿 */
+  --severity-2: #f5a623; /* 中等 / 中风险 —— 琥珀 */
+  --severity-3: #e5534b; /* 严重 / 高风险 —— 红 */
+
+  /* ---------- §2.3 圆角与间距 ---------- */
+  --radius-card: 12px; /* H5 卡片圆角 */
+  --radius-button: 20px; /* 按钮圆角（胶囊） */
+  --radius-bubble: 12px; /* 气泡圆角 */
+  --radius-bubble-tail: 4px; /* 气泡非对称：发送方右下 4px */
+  --radius-input: 12px; /* 输入框圆角 */
+  --radius-card-top: 22px; /* 登录卡片上圆角 */
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+
+  /* ---------- §2.2 字体阶梯（H5 为主） ---------- */
+  --font-h1: 600 22px/1.4 -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; /* 检测主结论 */
+  --font-h2: 500 17px/1.4 -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; /* 卡片/区块标题 */
+  --font-body: 400 15px/1.6 -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; /* 正文/对话 */
+  --font-caption: 400 13px/1.5 -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; /* 辅助/置信度 */
+  --font-mini: 400 12px/1.5 -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; /* 时间戳/标签 */
+
+  /* ---------- 渐变与投影（§3.3 登录页 / 品牌） ---------- */
+  --gradient-brand: linear-gradient(160deg, #2ba471 0%, #1e7a54 100%);
+  --gradient-brand-135: linear-gradient(135deg, #2ba471 0%, #1e7a54 100%);
+  --gradient-sky: linear-gradient(160deg, #4a90d9 0%, #2e75b6 100%); /* 实时天气卡天空渐变（与品牌绿区分） */
+  --shadow-sky: 0 6px 16px rgba(46, 117, 182, 0.28); /* 天气卡投影（带蓝调） */
+  --shadow-primary: 0 6px 16px rgba(43, 164, 113, 0.32);
+  --shadow-card: 0 2px 12px rgba(31, 43, 36, 0.06);
+  --shadow-float: 0 4px 14px rgba(31, 43, 36, 0.1);
+
+  /* ---------- 天气卡降级态（灰渐变，占位不塌陷） ---------- */
+  --gradient-muted: linear-gradient(160deg, #c8d0d6 0%, #aab6bf 100%);
+
+  /* ---------- 预警卡 · 琥珀色家族（中风险常驻卡） ---------- */
+  --alert-amber-bg: linear-gradient(135deg, #fff3dc 0%, #ffe3b3 100%); /* 卡片底渐变 */
+  --alert-amber-title: #8a5a00; /* 标题深琥珀 */
+  --alert-amber-text: #a36500; /* 等级标签文字 */
+  --alert-amber-sub: #7a5a2a; /* 正文次级棕 */
+
+  /* ---------- Vant 4 主题变量覆盖（对齐品牌绿） ---------- */
+  --van-primary-color: #2ba471;
+  --van-success-color: #2ba471;
+  --van-warning-color: #f5a623;
+  --van-danger-color: #e5534b;
+  --van-text-color: #1f2b24;
+  --van-text-color-2: #6b7b71;
+  --van-background: #f5f7f6;
+  --van-border-color: #eceeed;
+  --van-radius-md: 12px;
+  --van-font-size-md: 15px;
+}
+
+/* ==========================================================================
+   全局基础样式（H5 竖屏单栏）
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* 页面滚动在 body 上（ChatPage 等固定高度页自管内部滚动）；
+     禁止横向滚动，纵向必须可滚，否则内容超屏即被截断 */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+/* 语义色工具类（分级标签/预警统一取色） */
+.cd-sev-0 {
+  --sev-color: var(--severity-0);
+}
+.cd-sev-1 {
+  --sev-color: var(--severity-1);
+}
+.cd-sev-2 {
+  --sev-color: var(--severity-2);
+}
+.cd-sev-3 {
+  --sev-color: var(--severity-3);
+}
+
+/* 流式打字光标 */
+.cd-cursor {
+  display: inline-block;
+  width: 2px;
+  margin-left: 2px;
+  color: var(--color-primary);
+  font-weight: 700;
+  animation: cd-blink 1s steps(1, end) infinite;
+  vertical-align: text-bottom;
+}
+
+@keyframes cd-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.01%,
+  100% {
+    opacity: 0;
+  }
+}

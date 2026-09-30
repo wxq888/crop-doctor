@@ -14,19 +14,31 @@ redis
 # ===== 认证 =====
 python-jose[cryptography]
 passlib[bcrypt]
+bcrypt<4.1               # 必须锁 <4.1：passlib 1.7.4 与 bcrypt 5.x 不兼容（后端自检直接抛 ValueError，登录功能全废）
 python-multipart
 
 # ===== 视觉检测 =====
-ultralytics          # YOLOv8
+ultralytics          # YOLO11s（检测主线，当前权重 38 类）
 opencv-python-headless
 pillow
 
-# ===== RAG 智能客服 =====
+# ===== 可解释性（Grad-CAM 热力图）=====
+torchvision          # ResNet50 架构定义
+grad-cam             # Grad-CAM 热力图生成
+
+# ===== RAG 智能问诊 =====
 faiss-cpu
 sentence-transformers
 openai               # OpenAI 兼容协议，直连 DeepSeek
+
+# ===== 天气服务 =====
+# 和风天气 API 通过 httpx 直连，无额外依赖
 
 # ===== 工具 =====
 pydantic-settings
 httpx
 loguru
+
+# ===== 测试 =====
+pytest
+pytest-asyncio

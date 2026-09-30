@@ -37,11 +37,34 @@ ml/runs/
 # ===== FAISS 索引 / 向量库（由 kb/ 文档构建生成）=====
 backend/app/data/index/
 
+# ===== 知识库产物与源分离（kb/diseases 与 class-map.json 入库）=====
+# 采集到的原始 HTML/抽取文本、FAISS 索引产物、临时探测目录均不入库
+kb/_raw/
+kb/index/
+kb/_probe/
+
 # ===== 日志 / 临时文件 =====
 logs/
 *.log
 tmp/
 uploads/
 
+# ===== pytest 临时产物 =====
+# 跑测试时为规避沙箱「单次删除 >50 文件」守卫会加 --basetemp=<项目内目录>，
+# 这些目录与本地产出的 junit 报告都不应入库
+.pytest-*/
+.pytest-*.xml
+.pytest_*/
+_pttmp/
+.ptfresh*/
+_junit*.xml
+
+# ===== 后端运行期产物 =====
+backend/uploads/
+backend/logs/
+
 # 保留目录占位
 !**/.gitkeep
+
+# AI 助手工具元数据（项目记忆等），不入仓库
+.workbuddy/
